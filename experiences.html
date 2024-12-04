@@ -23,12 +23,37 @@
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                <div class="collapse navbar-collapse  d-flex justify-content-between" id="navbarResponsive">
+                    <ul class="navbar-nav py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="experiences.html">Experiences</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="experiences.html">Projects</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="assets/files/Julia_Zeng_Resume.pdf" download="Julia_Zeng_Resume">Resume</a></li>
+                    </ul>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://github.com/juliazeng23">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/julia-zeng-513737221">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fa-brands fa-linkedin fa-stack-1x fa-inverse"></i>                                    </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fa-solid fa-envelope fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -37,164 +62,147 @@
         <header class="bg-light py-5">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="text-center text-black">
-                    <h1 class="display-4 fw-bolder">Experiences</h1>
+                    <h1 class="display-4 fw-bolder">Projects</h1>
                 </div>
             </div>
         </header>
         <!-- Section-->
+        <!-- FlavorMatch -->
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-2 justify-content-center">
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="assets/images/FlavorMatch.png" alt="..." />
+                            <div class="image-container">
+                                <img class="card-img-top" src="assets/images/FlavorMatch.png" alt="..." />
+                                <div class="overlay" href="flavormatch.html">
+                                    <div>Suggests recipes that match in flavor profile to a dish</div>
+                                    <div class="skills">
+                                        <span class="pill">Information Retrieval</span>
+                                        <span class="pill">Python</span>
+                                    </div>
+                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                        <div class="text-center">
+                                            <a class="btn btn-outline-dark mt-auto" href="flavormatch.html">Learn More</a>
+                                            <a href="https://github.com/BeyondAiden0/4300-Flask-Template-JSON">
+                                                <span class="fa-stack fa-lg">
+                                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                                </span>
+                                            </a>
+                                            <a href="http://4300showcase.infosci.cornell.edu:5175/">
+                                                <span class="fa-stack fa-lg">
+                                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                                    <i class="fa-solid fa-link fa-stack-1x fa-inverse"></i>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">FlavorMatch</h5>
-                                    <span class="text-muted">Suggests recipes that match in flavor profile to a dish</span>
+                                    <h4 class="fw-bolder">FlavorMatch</h4>
                                 </div>
                             </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <!-- <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                 <div class="text-center">
                                     <a class="btn skills mt-auto">Information Retrieval</a>
                                     <a class="btn skills mt-auto">Python</a>
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center">
-                                    <a class="btn btn-outline-dark mt-auto" href="flavormatch.html">Learn More</a>
-                                    <a href="https://github.com/BeyondAiden0/4300-Flask-Template-JSON">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fas fa-circle fa-stack-2x"></i>
-                                            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                    <a href="http://4300showcase.infosci.cornell.edu:5175/">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fas fa-circle fa-stack-2x"></i>
-                                            <i class="fa-solid fa-link fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <!-- <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div> -->
-                            <!-- <i class="badge fab fa-github fa-stack-1x fa-inverse position-absolute" style="top: 0.5rem; right: 0.5rem"></i> -->
-                            <!-- Product image-->
-                            <img class="card-img-top" src="assets/images/3300_Bookshelf.png" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <h5 class="fw-bolder">Book Ratings</h5>
-                                    <span class="text-muted">Description</span>
-                                </div>
-                            </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center">
-                                    <a class="btn skills mt-auto">Data Visualization</a>
-                                    <a class="btn skills mt-auto">D3</a>
-                                    <a class="btn skills mt-auto">Javascript</a>
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Learn More</a></div>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- Bookshelf -->
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Sale badge-->
                             <!-- <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div> -->
                             <!-- Product image-->
-                            <img class="card-img-top" src="assets/images/MCM_Momentum.png" alt="..." />
-                            <!-- Product details-->
+                            <div class="image-container">
+                                <img class="card-img-top" src="assets/images/3300_Bookshelf.png" alt="..." />
+                                <div class="overlay">
+                                    <div>Description</div>
+                                    <div class="skills">
+                                        <span class="pill">Data Visualization</span>
+                                        <span class="pill">D3</span>
+                                        <span class="pill">Javascript</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Title-->
                             <div class="card-body p-4">
                                 <div class="text-center">
-                                    <h5 class="fw-bolder">Tennis Match Momentum</h5>
-                                    <span class="text-muted">Description</span>
+                                    <h4 class="fw-bolder">Book Ratings</h4>
                                 </div>
-                            </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center">
-                                    <a class="btn skills mt-auto">Data Analysis</a>
-                                    <a class="btn skills mt-auto">Python</a>
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Learn More</a></div>
                             </div>
                         </div>
                     </div>
+                    <!-- Tennis Momentum -->
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="assets/images/CMCM_Insecticides.png" alt="..." />
+                            <div class="image-container">
+                                <img class="card-img-top" src="assets/images/MCM_Momentum.png" alt="..." />
+                                <div class="overlay">
+                                    <div>Description</div>
+                                    <div class="skills">
+                                        <span class="pill">Data Analysis</span>
+                                        <span class="pill">Python</span>
+                                    </div>
+                                </div>
+                            </div>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
-                                    <h5 class="fw-bolder">Insecticide Usage</h5>
-                                    <span class="text-muted">Description</span>
-                                </div>
-                            </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center">
-                                    <a class="btn skills mt-auto">Simulation Modeling</a>
-                                    <a class="btn skills mt-auto">Python</a>
+                                    <h4 class="fw-bolder">Tennis Match Momentum</h4>
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <!-- <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                 <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Learn More</a></div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- Insecticides -->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <div class="image-container">
+                                <img class="card-img-top" src="assets/images/CMCM_Insecticides.png" alt="..." />
+                                <div class="overlay">
+                                    <div>Description</div>
+                                    <div class="skills">
+                                        <span class="pill">Simulation Modeling</span>
+                                        <span class="pill">Python</span>
+                                    </div>
+                                </div>
                             </div>
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">Insecticide Usage</h4>
+                                    <!-- <span class="text-muted">Description</span> -->
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <!-- <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Learn More</a></div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Footer-->
-        <footer class="border-top">
+        <footer>
             <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="https://github.com/juliazeng23">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="https://www.linkedin.com/in/julia-zeng-513737221">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fa-brands fa-linkedin fa-stack-1x fa-inverse"></i>                                    </span>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="https://github.com/juliazeng23">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fa-solid fa-envelope fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Julia Zeng 2024</div>
-                    </div>
-                </div>
+                <div class="small text-center text-muted fst-italic">Designed by Julia Zeng &copy; 2024</div>
             </div>
         </footer>
         <!-- Bootstrap core JS-->
